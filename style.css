@@ -38,7 +38,7 @@
 }
 .projects{
   background-color: rgb(255, 255, 255);
-  height: 1350px;
+  /* height: 1350px; */
   /* border: 1px solid red; */
 }
 .slot{
@@ -66,4 +66,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer{
+  background-color: rgb(110, 110, 110);
+  height: 100px;
+}
+@media only screen and (min-width: 961px) {
+  .page{
+    widows: 960px;
+    margin: 0 auto;
+  }
+  .projects{
+    display: flex;
+    justify-content: center;
+  }
+  .slot{
+    width: 33%;
+  }
 }
