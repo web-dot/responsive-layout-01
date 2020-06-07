@@ -14,10 +14,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid red;
 }
 .nav{
   background-color: rgb(146, 146, 146);
-  height: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+.menucontainer{
+  border: 1px solid blue;
+  width: 600px;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu{
+  float: right;
+  list-style: none;
+  margin: 10px;
+  width: 33%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+.menu a{
+  font-size: large;
+  text-decoration: none;
 }
 .navbreathe{
   height: 10px;
